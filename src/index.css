@@ -21,7 +21,6 @@
 }
 body{
     font-family: var(--font-family) !important;
-    font-size: larger;
 }
 h1 {
   font-size: 3.2em;
