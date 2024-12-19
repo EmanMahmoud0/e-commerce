@@ -39,7 +39,7 @@ export default function Login() {
 
   return (
     <div>
-      <h2 className='text-3xl font-semibold text-center pt-16 pb-4'>Login</h2>
+      <h2 className='text-3xl font-semibold text-center md:pt-8 pb-4'>Login</h2>
       <hr/>
       <form onSubmit={formik.handleSubmit} className='w-1/2 mx-auto py-8'>
         {apiError && <div className="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
