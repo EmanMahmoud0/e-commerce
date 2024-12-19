@@ -6,7 +6,7 @@ import img4 from '../../assets/images/4.jpg'
 
 export default function Slider() {
   return (
-    <div className="-mt-28">
+    <div className="">
        <img src={img1} alt='image'/>
     </div>
 )

@@ -7,10 +7,10 @@ import Slider from '../Slider/Slider.jsx'
 export default function Home() {
 
   return (
-    <div>
+    <>
       <Slider />
       <ProductsList />
-    </div>
+    </>
   )
 }
 

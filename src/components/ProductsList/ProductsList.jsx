@@ -25,7 +25,7 @@ export default function ProductsList() {
 
     return (
         <div className="">
-            <h2 className="text-3xl font-semibold text-center lg:pt-6 pb-4">Explore Our Prouducts</h2>
+            <h2 className="md:text-3xl font-semibold text-center lg:pt-6 pb-4">Explore Our Products</h2>
             <hr />
             {products.length?<div className="pt-16 flex justify-center flex-wrap space-x-4 ">
             {products.map((product, index) => {
