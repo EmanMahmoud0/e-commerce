@@ -5,9 +5,9 @@ import { NavLink } from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <div>
-      <nav className='bg-gray-100 lg:fixed top-0 left-0 right-0'>
-        <div className="container text-center flex flex-col lg:flex-row justify-between items-center capitalize py-4">
+    <>
+      <nav className='bg-gray-100 lg:fixed top-0 left-0 right-0 header px-5'>
+        <div className="container text-center flex flex-col lg:flex-row justify-between items-center capitalize py-3">
           <div className='flex flex-col lg:flex-row'>
             <img src={logo} width={115} className='me-3' alt='FreshCart Logo'/>
             <ul className='flex flex-col lg:flex-row'>
@@ -34,7 +34,7 @@ export default function Navbar() {
           </div>          
         </div>
       </nav>
-    </div>
+    </>
   )
 }
 

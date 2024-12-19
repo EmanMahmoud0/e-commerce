@@ -22,6 +22,13 @@
 body{
     font-family: var(--font-family) !important;
 }
+.header {
+    width: 80%;
+    border-radius: 10px;
+    margin: auto !important;
+    top: 20px !important;
+    z-index: 999 !important;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;

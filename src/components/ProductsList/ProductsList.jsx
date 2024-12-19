@@ -25,15 +25,20 @@ export default function ProductsList() {
 
     return (
         <div className="">
-            <h2 className="text-3xl font-semibold text-center lg:pt-6 pb-4">Latest Products</h2>
+            <h2 className="text-3xl font-semibold text-center lg:pt-6 pb-4">Explore Our Prouducts</h2>
             <hr />
-            <div className="pt-16 flex justify-center flex-wrap space-x-4 ">
+            {products.length?<div className="pt-16 flex justify-center flex-wrap space-x-4 ">
             {products.map((product, index) => {
                 return <div className='md:w-1/2 lg:w-1/4' key={index}>
                     <Product product={product}/>
                 </div>
             })}
-            </div>
+            </div> : <div className="flex h-screen justify-center items-center">
+                <i  className="fas fa-spinner fa-spin-pulse fa-5x"></i>
+            </div>  }
+            
+
+            
 
         </div>
     );
