@@ -45,8 +45,8 @@ export default function Register() {
 
 
   return (
-    <div className=''>
-      <h2 className='text-3xl font-semibold text-center lg:pt-6 pb-4'>Register Now</h2>
+    <>
+      <h2 className='text-3xl font-semibold text-center pt-16 pb-4'>Register Now</h2>
       <hr/>
       <form onSubmit={formik.handleSubmit} className='w-1/2 mx-auto py-8'>
         {apiError && <div className="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
@@ -98,7 +98,7 @@ export default function Register() {
         </button> : <button type="submit" className="text-white bg-emerald-600 hover:bg-emerald-800 focus:ring-4 focus:outline-none focus:ring-emerald-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-emerald-600 dark:hover:bg-emerald-700 dark:focus:ring-emerald-800">Submit</button>
           }
       </form>
-    </div>
+    </>
   )
 }
 

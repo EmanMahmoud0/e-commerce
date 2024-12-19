@@ -8,7 +8,7 @@ export default function Product({ product }) {
   return (
 
     <div className=" product mb-6 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow   dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-        <img className="product-img object-cover w-full md:h-full rounded-t-lg md:rounded-none md:rounded-s-lg" src={product.image} alt=""/>
+        <img className="product-img w-full md:h-full rounded-t-lg md:rounded-none md:rounded-s-lg" src={product.image} alt=""/>
         <div className="flex flex-col justify-between p-4 leading-normal">
             <h5 className="mb-2 line-clamp-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{product.title}</h5>
             <p className="mb-3 line-clamp-3 font-normal text-gray-700 dark:text-gray-400">{product.description}</p>
