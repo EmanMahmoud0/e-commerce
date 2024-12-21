@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import style from './Navbar.module.css'
 import logo from '../../assets/images/freshcart-logo.svg'
 import { NavLink } from 'react-router-dom'
